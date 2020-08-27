@@ -1,0 +1,65 @@
+{
+  "name": "js-starter",
+  "version": "0.0.1",
+  "description": "A boilerplate for starting js code",
+  "keywords": [
+    "js-starter",
+    "boilerplate"
+  ],
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "test": "__tests__"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cover": "jest --coverage",
+    "lint": "eslint \"src/**/*.js\"",
+    "start": "parcel ./src/index.html"
+  },
+  "author": {
+    "name": "Build For SDG",
+    "email": "buildforsdg@andela.com"
+  },
+  "homepage": "https://github.com/BuildForSDG/js-starter#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BuildForSDG/js-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BuildForSDG/js-starter/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "create-react-app": "^3.4.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "mdbreact": "^4.26.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.2.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.4.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-react": "^7.20.0",
+    "jest": "^25.4.0"
+  },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ]
+}
